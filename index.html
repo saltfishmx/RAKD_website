@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Real-time Neural Denoising with Render-aware Knowledge Distillation</h1>
+        <p class="authors">
+            Mengxun Kong - Nanjing University <br>
+            Jie Guo - Nanjing University <br>
+            Chen Wang - Nanjing University <br>
+            Ye Yuan - Nanjing University <br>
+            Yanwen Guo - Nanjing University <br>
+        </p>
+    </header>
+    <main>
+        <section class="abstract">
+            <h2>Abstract</h2>
+            <p>
+                Real-time Monte Carlo (MC) ray tracing with low sampling rates demands a denoising algorithm that adeptly balances the trade-off between quality and efficiency. Previous works have paid much attention on designing delicate denoising architecture while ignoring model compression. In this work, we present a render-aware knowledge distillation (RAKD) framework, specifically designed for Monte Carlo denoising. We meticulously delineate the Knowledge Distillation (KD) process within RAKD, emphasizing three pivotal techniques: the strategic incorporation of an auxiliary unlabeled dataset, the integration of adversarial learning through generative adversarial network (GAN), and the application of parameter transfer for robust model initialization. These approaches are harmoniously combined to distill knowledge effectively, enabling our student model to adeptly strike a balance between preserving high-frequency details and reducing low-frequency noise. Finally, our results demonstrate that RAKD achieves state-of-the-art quality while upholding real-time performance, successfully tackling the computational constraints faced by resource-limited devices.
+            </p>
+        </section>
+        <section class="links">
+            <h2>Resources</h2>
+            <div class="link-buttons">
+                <a href="./paper/Real_time_Neural_Denoising_with_Render_aware_Knowledge_Distillation.pdf" target="_blank" class="button">Paper</a>
+                <a href="https://github.com/saltfishmx/RAKD" target="_blank" class="button">Code</a>
+                <!-- <a href="https://video-link.com" target="_blank" class="button">Video</a> -->
+                <a href="./paper/appendix.pdf" target="_blank" class="button">Appendix</a>
+                <a href="./interactive-viewer/index.html" target="_blank" class="button">Interactive Viewer</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

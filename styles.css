@@ -1,0 +1,83 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa; /* 整体背景为浅灰色 */
+    color: #000000;
+}
+
+/* 标题部分样式 */
+header {
+    background: #1a1a1a;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8em; /* 调整标题字体大小 */
+    margin: 0;
+}
+
+.authors {
+    font-size: 1.2em; /* 调整作者字体大小 */
+    margin-top: 1em;
+    line-height: 1.5em; /* 增加行高使内容更易读 */
+}
+
+/* 摘要部分样式 */
+.abstract {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background: #ffffff; /* 添加浅色背景 */
+    border-radius: 8px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+.abstract h2 {
+    text-align: center;
+    font-size: 1.8em; /* 调整摘要标题大小 */
+    margin-bottom: 1em;
+}
+
+.abstract p {
+    font-size: 1.1em; /* 调整摘要正文字体大小 */
+    line-height: 1.6em; /* 增加行高 */
+    text-align: justify; /* 设置为两端对齐 */
+}
+
+/* 链接部分样式 */
+.links {
+    text-align: center;
+    padding: 2em;
+}
+
+.links h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.button {
+    text-decoration: none;
+    background: #007bff; /* 按钮颜色 */
+    color: white;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1.1em; /* 调整按钮字体大小 */
+    font-weight: bold;
+    transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加按钮阴影 */
+}
+
+.button:hover {
+    background: #0056b3; /* 按钮悬停时的颜色 */
+}
